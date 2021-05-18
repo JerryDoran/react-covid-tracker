@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f5f6fa;
+}
+
 .app {
   font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .app {
+    flex-direction: column;
+  }
 }
